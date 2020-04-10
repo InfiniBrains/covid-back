@@ -4,15 +4,10 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "database": "strapi",
-        "host": "localhost",
-        "srv": false,
-        "port": "27017",
-        "username": "admin",
-        "password": "admin"
+        "uri": "mongodb://localhost:27017/covid"
       },
       "options": {
-        "authenticationDatabase": "strapi"
+        "authenticationDatabase": "covid"
       }
     }
   }
