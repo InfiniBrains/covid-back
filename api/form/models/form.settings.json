@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "forms",
+  "info": {
+    "name": "form"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "fever": {
+      "type": "boolean",
+      "required": false
+    },
+    "feverDuration": {
+      "type": "integer"
+    },
+    "dryCough": {
+      "type": "boolean"
+    },
+    "productiveCough": {
+      "type": "boolean"
+    },
+    "tiredness": {
+      "type": "boolean"
+    },
+    "bodyAche": {
+      "type": "boolean"
+    },
+    "headAche": {
+      "type": "boolean"
+    },
+    "dizziness": {
+      "type": "boolean"
+    },
+    "diarrhea": {
+      "type": "boolean"
+    },
+    "nausea": {
+      "type": "boolean"
+    },
+    "vomit": {
+      "type": "boolean"
+    },
+    "smell": {
+      "type": "boolean"
+    },
+    "taste": {
+      "type": "boolean"
+    },
+    "shortOfBreath": {
+      "type": "boolean"
+    },
+    "stuffyNose": {
+      "type": "boolean"
+    },
+    "throatProblems": {
+      "type": "boolean"
+    },
+    "daysWithSymptoms": {
+      "type": "integer",
+      "max": 31
+    },
+    "exposed": {
+      "type": "boolean"
+    },
+    "heartRate": {
+      "type": "float"
+    },
+    "breathRate": {
+      "type": "float"
+    }
+  }
+}
