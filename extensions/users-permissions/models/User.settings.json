@@ -78,6 +78,10 @@
     },
     "geolocation": {
       "type": "json"
+    },
+    "forms": {
+      "collection": "form",
+      "via": "user"
     }
   }
 }

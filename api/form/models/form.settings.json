@@ -71,6 +71,11 @@
     },
     "breathRate": {
       "type": "float"
+    },
+    "user": {
+      "via": "forms",
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }

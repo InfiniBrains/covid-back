@@ -18,7 +18,6 @@
     "lintnew": "eslint api/**/*.js config/**/*.js plugins/**/*.js",
     "lint": "node_modules/.bin/eslint api/**/*.js config/**/*.js plugins/**/*.js",
     "gcp-build": "npm install ; npm run build"
-
   },
   "devDependencies": {},
   "dependencies": {
